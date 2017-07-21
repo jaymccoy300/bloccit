@@ -33,7 +33,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'web-console', '~> 2.0'
+end
+
+group :development do
+  gem 'web-console'
 end
 
 group :development, :test do
