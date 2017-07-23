@@ -36,6 +36,7 @@ end
 
 group :development do
   gem 'web-console'
+  gem 'pry-rails'
 end
 
 group :development, :test do
