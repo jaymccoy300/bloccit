@@ -17,7 +17,6 @@ require 'rails_helper'
    it { is_expected.to validate_length_of(:title).is_at_least(5) }
    it { is_expected.to validate_length_of(:body).is_at_least(20) }
 
-
    describe "attributes" do
      it "has a title and body attribute" do
        expect(post).to have_attributes(title: title, body: body)
